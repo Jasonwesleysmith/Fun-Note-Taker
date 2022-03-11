@@ -22,8 +22,6 @@ class Store {
         return getFileAsync("db/db.json", "utf-8")
     }
 
-
-    // 3 other functions
 }
 
 module.exports = new Store();
